@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+#preloader{
+    border:2px solid black;
+    width:80%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    transition-delay: 1s;
+
+}
+#content{
+    width:100%;
+   
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 5px;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+section {
+    margin: 5% 0;
+}
+/*============nav===============*/
+.navbar ul li a{
+color: #204066 !important;;
+}
+.navbar{
+    background-color:#fff;
+ padding-bottom: 0%!important;
+}
+
+.navbar ul li a:hover{
+    color: #61ce70 !important;;
+}
+.navbar ul li a.active{
+    color: #61ce70 !important;;
+}
+button.btn-1{
+   
+    background-color:#61ce70;
+    padding: 8px 10px;
+    border:2px solid #61ce70;
+    border-radius: 10px;
+    transition: all 0.6s;
+    text-decoration: none;
+
+}
+button.btn-1 a{
+color: #fff !important;
+text-decoration: none;
+}
+
+button.btn-1 a:hover{
+    
+    color: #fff!important;
+   
+}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+button.btn-1:hover{
+    background-color: #204066; 
+    border:2px solid #204066;   
+}
+button .btn-1:hover a{
+    color:white;
+}
+.sub-heading{
+    color:#61ce70;
+    text-align: center;
+}
+/*================== hero =============*/
+.hero{
+    margin-top: 0%!important;
+}
+.carousel-item .img-1{
+    background-image: url("../img/slider-1\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    background-blend-mode:overlay;
+    background-color: rgba(0,0,0,0.7); 
+}
+.carousel-item .img-2{
+    background-image: url("../img/slider-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    background-blend-mode:overlay;
+    background-color: rgba(0,0,0,0.7); 
+}
+.carousel-item .img-3{
+    background-image: url("../img/slider-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    background-blend-mode:overlay;
+    background-color: rgba(0,0,0,0.7); 
+}
+.carousel-item{
+    color:#fff;
+}
+.carousel-item p{
+    color:#fff;
+}
+/*===========ds================*/
+
+/*==================about=========================*/
+.about ul li{
+    list-style-type: none;
+}
+.about ul li i{
+    color:#61ce70;
+}
+.about{
+    margin-top: 0%!important;
+}
+
+.about .about-img{
+    background-color: #61ce70;
+    padding: 10px 10px;
+    margin-right: 20%;
+  border-radius: 5px;
+ 
+}
+.about .about-img:hover{
+    background-color: #204066;
+    transition: all 0.6s;
+}
+.about .about-img img{
+    margin-left: 20%;
+    margin-top: 10%;
+    
+}
+.about .about-body{
+    margin-top: 30%;
+}
+.about .about-content{
+    background-image: url("../img/bg-top-right.png");
+    background-size: cover;
+    width:100%;
+    height:auto;
+    background-position: right;
+  
+    background-attachment: fixed;
+    
+}
+.about  ul li i{
+    color:#61ce70;
+}
+/*--=============imf===============--*/
+.imf .imf-1{
+    padding: 20px 20px;
+    background-color: #152942;
+    color:#fff;
+    border-radius: 0%;
+}
+.imf .imf-2{
+    padding: 20px 20px;
+    background-color:#1153a3;
+    color:#fff;
+    border-radius: 0%;
+}
+.imf .imf-3{
+    padding: 20px 20px;
+    background-color: #299ddb;
+    color:#fff;
+    border-radius: 0%;
+}
+
+.imf button{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.imf i{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.imf .imf-1 button{
+    background-color:#fff;
+    padding: 10px 15px;
+    border:2px solid #fff;
+    border-radius: 10px;
+    transition: all 0.6s;
+    text-decoration: none;
+}
+.imf .imf-1 button a{
+    color:#152942;
+    text-decoration: none;
+}
+.imf .imf-1:hover button a{
+    color:#fff
+}
+.imf .imf-2:hover button a{
+    color:#fff
+}
+.imf .imf-3:hover button a{
+    color:#fff
+}
+.imf .imf-1:hover button{
+    background-color: #61ce70;
+    color:#fff;
+    border:2px solid #61ce70;
+    border-radius: 10px;
+    transition: all 0.6s;
+    padding: 10px 15px;
+}
+
+
+.imf .imf-2 button{
+    background-color:#fff;
+    padding: 10px 15px;
+    border:2px solid #fff;
+    border-radius: 10px;
+    transition: all 0.6s;
+    text-decoration: none;
+}
+.imf .imf-2 button a{
+    color:#152942;
+    text-decoration: none;
+}
+.imf .imf-2:hover button{
+    background-color: #299ddb;
+    color:#fff;
+    border:2px solid #299ddb;
+    border-radius: 10px;
+    transition: all 0.6s;
+    padding: 10px 15px;
+}
+
+
+
+
+.imf .imf-3 button{
+    background-color:#fff;
+    padding: 10px 10px;
+    border:2px solid #fff;
+    border-radius: 10px;
+    transition: all 0.6s;
+    text-decoration: none;
+}
+.imf .imf-3 button a{
+    color:#152942;
+    text-decoration: none;
+}
+.imf .imf-3:hover button{
+    background-color:#152942;
+    color:#fff;
+    border:2px solid #152942;
+    border-radius: 10px;
+    transition: all 0.6s;
+    padding: 10px 10px;
+}
+
+/*--============services============--*/
+.services{
+    margin-top: 10%;
+}
+.services .card{
+    padding: 8% 8%;
+    border: 0%;
+  
+}
+.services .card i{
+    color:#61ce70;
+    font-size:60px;
+    margin-bottom: 15px;
+    margin-left: 40%;
+
+}
+.services .card:hover i{
+    color:#fff;
+    font-size:60px;
+    margin-bottom: 15px;
+   
+    transform: rotateX(360deg);
+    transition: all 2s;
+}
+.services .card:hover button{
+    background-color: #fff;
+    border:2px solid #fff;
+   
+}
+.services .card:hover button a{
+    color: #000 !important;;
+}
+.services{
+    background-image: url("../img/bg-map.png");
+    padding: 20px 0px;
+}
+.services .card:hover{
+    padding: 8% 8%;
+    border: 0%;
+ background-image: url("../img/op\ 2.jpg");
+ background-position: center;
+ background-size: cover;
+ width:100%;
+ height:auto;
+ overflow: hidden;
+background-blend-mode:multiply;
+background-color: rgb(75, 173, 88);
+color:#fff;
+}
+.services .card:hover p{
+    color:#fff;
+}
+
+/*--=================choose===================--*/
+.choose.card{
+    padding: 8% 8%;
+    border: 0%;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+.choose .card:hover{
+    transform: scale(1.1);
+    transition: all 0.6s;
+    border-top: 5px solid #61ce70;
+    border-bottom: 5px solid #61ce70;
+    background-color: whitesmoke;
+}
+.choose .card i{
+    color:#61ce70;
+    font-size:35px;
+    margin-bottom: 10px;
+
+}
+.choose{
+    background-image: url("../img/medical-nurse-worker-examining-a-medical-report-2021-04-03-23-54-24-utc.jpg");
+    background-size: cover;
+    width:100%;
+    height:auto;
+    background-position: right;
+    background-attachment: fixed;
+    background-blend-mode:darken;
+    background-color: rgba(9, 27, 49, 0.886);
+    padding:7% 0%;
+    margin-top: 10%;
+}
+/*--===============mission==============--*/
+.mission{
+    padding:50px 0px;
+    background-color: whitesmoke;
+}
+.mission .card{
+    border-bottom:5px solid #61ce70;
+}
+.mission .card:hover{
+    border-bottom:5px solid #204066;
+}
+.mission .card p{
+ text-align: center;
+}
+.mission i{
+    background-color: #61ce70;
+    color:#fff;
+    padding: 25px 25px;
+    border-radius: 50%;
+    font-size: xx-large;
+   margin-top: -200%!important;
+   margin-left: 40%;
+   margin-bottom: 10%;
+   border: 2px dotted #ccc;
+}
+.mission .i:hover{
+    background-color: #204066;
+    color:#fff;
+    padding: 25px 25px;
+    border-radius: 50%;
+    margin-top: -200%!important;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+.mission .card:hover i{
+    background-color: #204066;
+    color:#fff;
+    padding: 25px 25px;
+    border-radius: 50%;
+    border: 2px dotted #ccc;
+}
+/*--===================footer============--*/
+.footer{
+    background-color: #204066;
+    padding: 5% 2%;
+    color:#fff;
+    margin-bottom: 0%!important;
+    padding-bottom: 2%!important;
+}
+.footer ul li a{
+    color:white;
+    text-decoration: none;
+ 
+}
+.footer ul li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+.footer .box{
+    background-color: #fff;
+    padding: 5% 10%;
+    border-left: 5px solid #61ce70;
+}
+.footer i{
+    background-color: #204066;
+    color:#fff;
+    padding:5px 5px;
+    border-radius:3px;
+    margin-left: 10px;
+}
+.footer i:hover{
+    background-color: #fff;
+    color:#152942;
+    padding:5px 5px;
+    border-radius:3px;
+
+}
+.footer input{
+    height:20%;
+    padding: 5% 8%;
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+/*===================================================================
+------------------------------- ABOUT --------------------------------
+=====================================================================*/
+.sub-hero{
+    background-image: url("../img/steto-2.png");
+    background-blend-mode:darken;
+    background-color:rgba(0,0,0,0.7);
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    height:auto;
+    padding:8% 0%;
+    color:#fff
+}
+.sub-hero a{
+ text-decoration: none;
+    color:#fff;
+}
+.sub-hero a:hover{
+    color:#61ce70;
+}
+/*--============== owner ================--*/
+.owner .card-body .content{
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 10px;
+    
+}
+
+
+/*--==========counter===========---*/
+.counters{
+    background-image: url("../img/slider-1.jpg");
+    background-blend-mode:darken;
+    background-color:rgba(9, 27, 49, 0.886);
+    background-size:cover;
+    background-position:top;
+    background-attachment: fixed;
+    width:100%;
+    height:auto;
+    padding:8% 0%;
+    color:#fff
+}
+/*--================team==============--*/
+.team .team-body{
+    margin-top: 5%;
+}
+.team{
+    background-color: whitesmoke;
+    padding: 3% 0%;
+}
+.team .team-body{
+    background-image: url("../img/bg.png");
+    background-size: auto;
+    background-position:center center;
+    background-repeat: no-repeat;
+    padding-top:130px;
+    padding-left:3%;
+    padding-right: 3%;
+
+    width:100%;
+    height:100%;
+    margin-top: -8%;
+
+}
+
+.team .team-body p,h5{
+    text-align: center;
+}
+.team .team-body h5{
+    margin-top: 15px;
+}
+.team .team-end button{
+margin-left: 40%;
+margin-top: 2%;
+}
+/*===================================================================
+------------------------------- contact --------------------------------
+=====================================================================*/
+.contact-1 .card{
+    background-color: whitesmoke;
+    padding: 20% 5%;
+}
+.contact-1 .card .card-body p,h3{
+    text-align: center;
+}
+.contact-1 .card span i{
+    color:#fff;
+    font-size: xx-large;
+    padding-left: 10px;
+   
+
+}
+.contact-1 .card span{
+    background-color:#61ce70;
+    padding:7%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top:-8%;
+    margin-bottom: 5%;
+   
+}
+.contact-1 .card:hover span{
+    transform: rotate(360deg);
+    transition: all 0.9s;
+}
+.contact-1 .card:hover{
+    border-bottom: 5px solid #61ce70;
+    border-top: 5px solid #61ce70;
+    transform: scale(0.9);
+}
+/*--=============form================--*/
+.form{
+    margin-top: 5%;
+}
+.form .card{
+    padding: 30px 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom:-10%!important;
+}
+.form .card input{
+    background-color: rgb(232, 232, 232);
+}
+.form .card textarea{
+    background-color: rgb(232, 232, 232);
+}
+/*--======================================
+---------------------services------------------
+===========================================--*/
+.service-1 .detal{
+    background-image: url("../img/bg-map.png");
+ 
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:auto;
+}
+.service-1 i{
+    font-size: 50px;
+    color:#61ce70
+    }
+.service-1 .cardialogy{
+ background-color: whitesmoke;
+ padding: 8% 3%;
+}
+.service-1 .cardialogy i{
+    margin-left:45%;
+    margin-bottom: 5%;
+  
+}
+.service-1 .demtology .card{
+    border-left:3px solid #61ce70;
+}
+
+.service-1 .demtology {
+    background-image: url("../img/bg-map.png");
+  
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:auto;
+}
